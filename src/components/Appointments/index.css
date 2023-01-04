@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.appContainer {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  padding-bottom: 30px;
+  padding: 15px;
+  font-family: 'Roboto';
+}
+
+.appointmentImage {
+  width: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .appointmentImage {
+    display: none;
+  }
+}
+.contentContainer {
+  margin-top: 60px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 200px;
+}
+.formContainer {
+  display: flex;
+}
+.heading {
+  color: #171f46;
+}
+.labels {
+  color: #b5b7c4;
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+.inputs {
+  border: #b5b7c4 solid 1px;
+  width: 160%;
+  height: 25px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  padding: 5px;
+  font-size: 10px;
+  font-family: 'Roboto';
+}
+.addButton {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.appointmentText {
+  font-size: 20px;
+}
+.textStarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.startedButton {
+  border: #9897f0 solid 1px;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 10px;
+  padding: 5px 10px;
+  font-family: 'Roboto';
+  color: #9897f0;
+  cursor: pointer;
+}
+.appointmentsItemContainer {
+  margin-left: -40px;
+}
+.appointmentsItemContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
